@@ -1,0 +1,17 @@
+{
+  "name": "@healroute/ui",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.23",
+    "typescript": "5.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}
